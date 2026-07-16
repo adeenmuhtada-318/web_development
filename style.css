@@ -1,0 +1,88 @@
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    background-color: #F4C2c2; 
+    background-image: url('portfoliobackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333333;           
+    line-height: 1.6;          
+    margin: 0;
+    padding: 20px;
+}
+.img{
+    display: block;           
+    margin: 0 auto;
+    border-color: #CD5E77;
+    border-width: 5px;
+    border-style: solid;
+}
+img {
+    max-width: 100%;           
+    height: auto;              
+    border-radius: 100px;      
+    align-items: center;   
+}
+/* Main headings */
+h1, h2, h3 {
+    color: #CD5E77; 
+    text-align: center;
+}
+ul {
+  list-style: none; /* Removes bullets */
+  padding: 0;       /* Removes default browser indentation */
+  margin: 100px;        /* Removes default outer spacing */
+  display: inline-block; /* Optional: Makes the list inline */
+}
+li {
+  padding: 10px; /* Adds padding inside each list item */
+  border-left: 1px solid #CD5E77; /* Optional: Adds a separator between items */
+}
+.my-btn {
+    display: inline-block;
+    background-color: #927474; 
+    color: white;           
+    padding: 15px 20px;        
+    margin-right: 10px;        
+    border-radius: 5px;        
+}
+
+
+.my-btn {
+    text-align: center;
+    background-color: #927474; 
+    color: white;              
+    padding: 10px 20px;        
+    margin-right: 10px;        
+    border-radius: 5px;         
+    font-weight: bold;
+}
+.my-btn:hover {
+    background-color: #0056b3; 
+}
+.navbar {
+    display: flex,inline;
+    justify-content: center;
+    background-color: #f8dada;
+    list-style-type: none;
+    padding: 10px 20px;        
+    border-radius: 5px;        
+    margin-bottom: 20px;       
+}
+.nav-links {
+    display: inline-block;           
+    padding: 10px;                
+    margin: 0px;                 
+}
+.skills-list {
+    background-color: #f8dada;
+    text-align: center;
+    padding: 10px;          
+    border-radius:10px;
+}
+.projects-list {
+    background-color: #f8dada;
+    text-align: center;
+    padding: 0;          
+    border-radius:10px;
+}
