@@ -1,10 +1,12 @@
 
 body {
     font-family: 'Poppins', sans-serif; 
-    background-color: #F4C2c2; 
+    background-color: #F4C2c2;
     background-image: url('portfoliobackground.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;          
+    background-position: center;   
+    background-attachment: fixed; 
     color: #333333;           
     line-height: 1.6;          
     margin: 0;
@@ -38,17 +40,9 @@ li {
   padding: 10px; /* Adds padding inside each list item */
   border-left: 1px solid #CD5E77; /* Optional: Adds a separator between items */
 }
-.my-btn {
-    display: inline-block;
-    background-color: #927474; 
-    color: white;           
-    padding: 15px 20px;        
-    margin-right: 10px;        
-    border-radius: 5px;        
-}
-
 
 .my-btn {
+    item-align: center;
     text-align: center;
     background-color: #927474; 
     color: white;              
@@ -56,9 +50,6 @@ li {
     margin-right: 10px;        
     border-radius: 5px;         
     font-weight: bold;
-}
-.my-btn:hover {
-    background-color: #0056b3; 
 }
 .navbar {
     display: flex,inline;
@@ -80,9 +71,29 @@ li {
     padding: 10px;          
     border-radius:10px;
 }
-.projects-list {
+.projects-section {
+    margin: 20px;
     background-color: #f8dada;
     text-align: center;
     padding: 0;          
     border-radius:10px;
+}
+.contact-section{
+    color: #CD5E77;
+    margin: 20px;
+    background-color: #f8dada;
+    text-align: center;
+    padding: 0;          
+    border-radius:10px;
+}
+.contact-form {
+    align-items: left;
+    padding: 40px;
+}
+.all-list {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 50pt; 
+    margin: 0 auto;
 }
