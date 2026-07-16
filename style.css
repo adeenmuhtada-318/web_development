@@ -25,6 +25,10 @@ img {
     border-radius: 100px;      
     align-items: center;   
 }
+.header-buttons {
+    text-align: center;
+    margin-bottom: 20px; 
+}
 /* Main headings */
 h1, h2, h3 {
     color: #CD5E77; 
@@ -34,15 +38,14 @@ ul {
   list-style: none; /* Removes bullets */
   padding: 0;       /* Removes default browser indentation */
   margin: 100px;        /* Removes default outer spacing */
-  display: inline-block; /* Optional: Makes the list inline */
+  display: inline-block; 
 }
 li {
-  padding: 10px; /* Adds padding inside each list item */
-  border-left: 1px solid #CD5E77; /* Optional: Adds a separator between items */
+  padding: 10px; 
+  border-left: 1px solid #CD5E77; /
 }
 
 .my-btn {
-    item-align: center;
     text-align: center;
     background-color: #927474; 
     color: white;              
@@ -63,8 +66,12 @@ li {
 .nav-links {
     display: inline-block;           
     padding: 10px;                
-    margin: 0px;                 
-}
+    margin: 0px;    
+    text-decoration: none; 
+    color: #CD5E77;      
+    font-weight: bold;
+}        
+
 .skills-list {
     background-color: #f8dada;
     text-align: center;
@@ -72,12 +79,24 @@ li {
     border-radius:10px;
 }
 .projects-section {
+    color: white;
     margin: 20px;
-    background-color: #f8dada;
+    background-color: #927474;
     text-align: center;
-    padding: 0;          
+    padding: 20px;          
     border-radius:10px;
 }
+.projects-section h2 {
+    color: #f8dada;
+}
+.project-card {
+    background-color: #f4c2c2; 
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto; 
+    border: 1px solid #CD5E77;
+}
+
 .contact-section{
     color: #CD5E77;
     margin: 20px;
@@ -89,6 +108,36 @@ li {
 .contact-form {
     align-items: left;
     padding: 40px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.contact-form-input,
+.contact-form-textarea {
+    width: 90%;       
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#certifications {
+    background-color: #f8dada; 
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cert-card {
+    background-color: white; 
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto; 
+    border: 1px solid #CD5E77;
+}
+.certification-section h2, 
+.certification-section h3 {
+    color: #333333;
 }
 .all-list {
     text-align: center;
